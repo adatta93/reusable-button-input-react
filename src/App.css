@@ -1,0 +1,322 @@
+.app-container {
+  padding: 3rem;
+}
+
+/* Default Button Starts */
+.btn,
+.btn-default {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ddd;
+  padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: #ddd;
+  color: #000;
+  box-shadow: 0 1px 2px 0px #888;
+}
+.btn:hover,
+.btn:focus,
+.btn.hovered {
+  background-color: #c7c7c7;
+  border: 1px solid #c7c7c7;
+  outline: none;
+}
+.btn:active {
+  background-color: #bfbfbf;
+  border: 1px solid #bfbfbf;
+}
+.btn:disabled {
+  opacity: 0.65;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  cursor: default;
+}
+/* Default Button Ends */
+
+.btn.no-shadow {
+  box-shadow: none;
+}
+
+.btn.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Button with Icon Starts */
+.btn .start-icon {
+  font-size: inherit;
+  margin-right: 0.5rem;
+}
+.btn .end-icon {
+  font-size: inherit;
+  margin-left: 0.5rem;
+}
+/* Button with Icon Ends */
+
+/* Outline Button Starts */
+.btn.btn-outline {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #000;
+}
+.btn.btn-outline:hover,
+.btn.btn-outline:focus,
+.btn.btn-outline.hovered {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.btn.btn-outline:active {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.btn.btn-outline:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #333;
+}
+/* Outline Button Ends */
+
+/* Text Button Starts */
+.btn.btn-text {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+.btn.btn-text:hover,
+.btn.btn-text:focus,
+.btn.btn-text.hovered {
+  background-color: #ddd;
+}
+.btn.btn-text:active {
+  background-color: #cdcdcd;
+}
+.btn.btn-text:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+/* Text Button Ends */
+
+/* Primary Button Starts */
+.btn.primary {
+  background-color: #2962ff;
+  border: 1px solid #2962ff;
+  color: #fff;
+}
+.btn.primary:focus,
+.btn.primary:hover,
+.btn.primary.btn.hovered {
+  background-color: #0039cb;
+  border: 1px solid #0039cb;
+}
+.btn.primary:active {
+  background-color: #002fa8;
+  border: 1px solid #002fa8;
+}
+.btn.primary:disabled {
+  background-color: #2962ff;
+  border: 1px solid #2962ff;
+}
+/* Primary Button Ends */
+
+/* Primary Outline Button Starts */
+.btn.primary.btn-outline {
+  background-color: transparent;
+  box-shadow: none;
+  color: #2962ff;
+  border: 1px solid #2962ff;
+}
+.btn.primary.btn-outline:hover,
+.btn.primary.btn-outline:focus,
+.btn.primary.btn-outline.hovered {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+.btn.primary.btn-outline:active {
+  background-color: rgba(41, 98, 255, 0.2);
+}
+.btn.primary.btn-outline:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #2962ff;
+}
+/* Primary Outline Button Ends */
+
+/* Primary Text Button Starts */
+.btn.primary.btn-text {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #2962ff;
+}
+.btn.primary.btn-text:hover,
+.btn.primary.btn-text:focus,
+.btn.primary.btn-text.hovered {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+.btn.primary.btn-text:active {
+  background-color: rgba(41, 98, 255, 0.2);
+}
+.btn.primary.btn-text:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+/* Primary Text Button Ends */
+
+/* Secondary Button Starts */
+.btn.secondary {
+  background-color: #455a64;
+  border: 1px solid #455a64;
+  color: #fff;
+}
+.btn.secondary:focus,
+.btn.secondary:hover,
+.btn.secondary.btn.hovered {
+  background-color: #1c313a;
+  border: 1px solid #1c313a;
+}
+.btn.secondary:active {
+  background-color: #1a2a31;
+  border: 1px solid #1a2a31;
+}
+.btn.secondary:disabled {
+  background-color: #455a64;
+  border: 1px solid #455a64;
+}
+/* Secondary Button Ends */
+
+/* Secondary Outline Button Starts */
+.btn.secondary.btn-outline {
+  background-color: transparent;
+  box-shadow: none;
+  color: #455a64;
+  border: 1px solid #455a64;
+}
+.btn.secondary.btn-outline:hover,
+.btn.secondary.btn-outline:focus,
+.btn.secondary.btn-outline.hovered {
+  background-color: rgba(69, 90, 100, 0.1);
+}
+.btn.secondary.btn-outline:active {
+  background-color: rgba(69, 90, 100, 0.2);
+}
+.btn.secondary.btn-outline:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #455a64;
+}
+/* Secondary Outline Button Ends */
+
+/* Secondary Text Button Starts */
+.btn.secondary.btn-text {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #455a64;
+}
+.btn.secondary.btn-text:hover,
+.btn.secondary.btn-text:focus,
+.btn.secondary.btn-text.hovered {
+  background-color: rgba(69, 90, 100, 0.1);
+}
+.btn.secondary.btn-text:active {
+  background-color: rgba(69, 90, 100, 0.2);
+}
+.btn.secondary.btn-text:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+/* Secondary Text Button Ends */
+
+/* Danger Button Starts */
+.btn.danger {
+  background-color: #d32f2f;
+  border: 1px solid #d32f2f;
+  color: #fff;
+}
+.btn.danger:focus,
+.btn.danger:hover,
+.btn.danger.btn.hovered {
+  background-color: #9a0007;
+  border: 1px solid #9a0007;
+}
+.btn.danger:active {
+  background-color: #790006;
+  border: 1px solid #790006;
+}
+.btn.danger:disabled {
+  background-color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
+/* Danger Button Ends */
+
+/* Danger Outline Button Starts */
+.btn.danger.btn-outline {
+  background-color: transparent;
+  box-shadow: none;
+  color: #9a0007;
+  border: 1px solid #9a0007;
+}
+.btn.danger.btn-outline:hover,
+.btn.danger.btn-outline:focus,
+.btn.danger.btn-outline.hovered {
+  background-color: rgba(154, 0, 7, 0.1);
+}
+.btn.danger.btn-outline:active {
+  background-color: rgba(154, 0, 7, 0.2);
+}
+.btn.danger.btn-outline:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #9a0007;
+}
+/* Danger Outline Button Ends */
+
+/* Danger Text Button Starts */
+.btn.danger.btn-text {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #9a0007;
+}
+.btn.danger.btn-text:hover,
+.btn.danger.btn-text:focus,
+.btn.danger.btn-text.hovered {
+  background-color: rgba(154, 0, 7, 0.1);
+}
+.btn.danger.btn-text:active {
+  background-color: rgba(154, 0, 7, 0.2);
+}
+.btn.danger.btn-text:disabled {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+/* Danger Text Button Ends */
+
+/* Small Button Starts */
+.btn.sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.35rem;
+}
+/* Small Button Ends */
+
+/* Large Button Starts */
+.btn.lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.45rem;
+}
+/* Small Button Ends */
